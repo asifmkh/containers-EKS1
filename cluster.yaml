@@ -11,9 +11,3 @@ nodeGroups:
     desiredCapacity: 3
     ssh: 
      publicKeyname: eks-course
-
-  - name: ng-2
-    instanceType: t2.small
-    desiredCapacity: 2
-    ssh:
-     publicKeyname: eks-course
